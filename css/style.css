@@ -231,6 +231,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+#mediaBut{
+  margin-top: 15px;
+margin-bottom: 16px;
+}
 #start {
   background-color: red;
   color: white;
