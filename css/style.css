@@ -35,6 +35,7 @@ h1{
 }
 
 .btn1 {
+  -webkit-appearance: none;
   position: relative;
   display: inline-block;
   padding: 15px 30px;
@@ -48,6 +49,7 @@ h1{
   transition-delay: .1s;
 }
 .btn1:hover {
+  -webkit-appearance: none;
   color: white;
   background-color: #b61924;
   padding: 15px 35px;
@@ -59,6 +61,7 @@ h1{
 
 
 .btn2 {
+  -webkit-appearance: none;
   position: relative;
   display: inline-block;
   padding: 5px 10px;
@@ -73,7 +76,7 @@ h1{
   transition-delay: .1s;
 }
 .btn2:hover {
-
+ -webkit-appearance: none;
   color: #b61924;
   background-color: white;
   padding: 5px 10px;
@@ -82,6 +85,7 @@ h1{
 }
 
 .btn2:after {
+  -webkit-appearance: none;
   content: "";
   position: absolute;
   z-index: -1;
@@ -97,6 +101,7 @@ h1{
 
 
 .mainSection {
+  -webkit-appearance: none;
   color: white;
   position: absolute;
   width: 100vw;
@@ -268,4 +273,3 @@ a {
 .socialLinks a {
   padding: 0px 10px;
 }
--webkit-appearance: none;
