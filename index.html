@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <section id="particles-js">
+    <div class="startSection">
+      <div class="startSectionContent">
+        <div class="borderSection">
+          <h1>Tough Music Recognition</h1>
+            <button id="btn0" class="btn1">START</button>
+        </div>
+      </div>
+    </div>
+    <div class="mainSection">
+      <div class="mainSectionContent">
+        <div class="chooseMethod ">
+          <div class="firstMethod">
+            <h1>Song Text</h1>
+              <button id="btn3" class="btn1">Try this</button>
+          </div>
+          <div class="secondMethod">
+            <h1>Music</h1>
+              <button id="btn5" class="btn1">Try this</button>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div class="searchByText">
+      <div class="container">
+        <div class="searchByTextContent">
+            <button id="btn4" class="btn2">Change method</button>
+        </div>
+        <div class="inputText">
+          <form id="searchBform">
+            <input type="text"  placeholder=" Enter text" id="songName">
+            <button id="serchB" onclick="getMusic()">
+
+            </button>
+          </form>
+          <div class="searchResult">
+            <div class="musicDescription">  </div>
+
+            <div class="socialLinks">
+              <a  id="youtubeVideo"  target="_blank">
+                <img id="youtubeImg" src="" alt=""> </a>
+              <a  id="itunesL"  target="_blank">
+                <img id="itunesImg" src="" alt=""> </a>
+              <a  id="spotifyL"  target="_blank">
+                <img id="spotifyImg" src="" alt=""> </a>
+              <a  id="soundcloudL"  target="_blank">
+                <img id="soundcloudImg" src="" alt=""> </a>
+
+            </div>
+            <div class="ifreamItem">
+
+          <iframe id="video_fr"width="400" height="250" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="searchByMusic">
+      <div class="searchByMusicContent">
+         <div class="searchByMusicButton">
+           <button id="btn6" class="btn2">Change method</button>
+         </div>
+         <div class="sbmContent">
+
+          <div id="audio"></div>
+           <div class="audioButton">
+             <button id="start"><i class="fa fa-play fa-2x"></i></button>
+             <button id="stop" > <i class="fa fa-pause fa-2x" aria-hidden="true" style="padding-left: 2px;"></i> </button>
+           </div>
+           <button class="btn1" id="mediaBut" onclick="getMusic2()">
+           FIND song
+          </button>
+            <div class="musicDescriptionDeezer"></div>
+            <div class="hidenDeez">
+              <div id="deezirW" class="deezer-widget-player"  data-scrolling="no" data-frameborder="0" data-allowTransparency="true" data-width="300" data-height="300"></div>
+            </div>
+            </div>
+
+         </div>
+      </div>
+    </div>
+  </section>
+
+
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/voice.js"></script>
+    <!-- <script>
+    // /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+     particlesJS.load('particles-js', 'assets/particles.json', function() {
+       console.log('callback - particles.js config loaded');
+     });
+    </script> -->
+
+</body>
+</html>
